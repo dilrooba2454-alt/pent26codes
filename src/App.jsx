@@ -73,30 +73,48 @@ function App() {
         </div>
       </section>
 
-      {/* About */}
+            {/* About Section */}
       <section className="about-section" id="about">
-        <div className="about-image">
-          <div className="image-placeholder">
-            Pent26Codes
+        <div className="about-container">
+
+          <div className="about-visual">
+            <div className="about-box">
+              <span>P26</span>
+              <p>
+                BUILDING DIGITAL
+                <br />
+                EXPERIENCES
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="about-content">
-          <span className="section-label">WHO WE ARE</span>
+          <div className="about-content">
+            <span className="section-label">WHO WE ARE</span>
 
-          <h2>
-            Empowering Businesses
-            <br />
-            Through Software
-            <br />
-            Innovation
-          </h2>
+            <h2>
+              Empowering Businesses
+              <br />
+              Through Software
+              <br />
+              Innovation
+            </h2>
 
-          <p>
-            At Pent26, we specialize in building high-impact software
-            solutions that help businesses grow, innovate, and succeed in the
-            digital world.
-          </p>
+            <p>
+              At Pent26Codes, we build powerful digital products that help
+              businesses turn ideas into meaningful experiences.
+            </p>
+
+            <p>
+              From websites and mobile applications to AI-powered solutions,
+              our focus is on creating technology that is reliable, scalable,
+              and built around real business needs.
+            </p>
+
+            <a href="#services" className="about-link">
+              Explore Our Services →
+            </a>
+          </div>
+
         </div>
       </section>
 
