@@ -16,7 +16,6 @@ function App() {
           <a href="#process">Process</a>
           <a href="#contact">Contact</a>
         </nav>
-
         <a href="#contact" className="project-button">
           START YOUR PROJECT
         </a>
@@ -32,7 +31,6 @@ function App() {
             <br />
             <span>Inspire Users.</span>
           </h1>
-
           <p>
             From MVP to enterprise scale, Pent26 engineers world-class web and
             mobile applications tailored to your exact business goals.
@@ -49,7 +47,6 @@ function App() {
           </div>
         </div>
       </section>
-
       {/* Statistics */}
       <section className="stats-section">
         <div className="stat">
@@ -72,7 +69,6 @@ function App() {
           <p>GLOBAL SUPPORT</p>
         </div>
       </section>
-
       {/* About Section */}
       <section className="about-section" id="about">
         <div className="about-container">
@@ -89,7 +85,6 @@ function App() {
 
           <div className="about-content">
             <span className="section-label">WHO WE ARE</span>
-
             <h2>
               Empowering Businesses
               <br />
@@ -102,7 +97,6 @@ function App() {
               At Pent26Codes, we build powerful digital products that help
               businesses turn ideas into meaningful experiences.
             </p>
-
             <p>
               From websites and mobile applications to AI-powered solutions,
               our focus is on creating technology that is reliable, scalable,
@@ -115,7 +109,6 @@ function App() {
           </div>
         </div>
       </section>
-
       {/* Services Section */}
       <section className="services-section" id="services">
         <div className="section-heading">
@@ -128,7 +121,6 @@ function App() {
             solutions that create real business impact.
           </p>
         </div>
-
         <div className="services-grid">
           <div className="service-card">
             <span className="service-number">01</span>
@@ -146,7 +138,6 @@ function App() {
               Learn more →
             </a>
           </div>
-
           <div className="service-card">
             <span className="service-number">02</span>
 
@@ -163,7 +154,6 @@ function App() {
               Learn more →
             </a>
           </div>
-
           <div className="service-card">
             <span className="service-number">03</span>
 
@@ -180,7 +170,6 @@ function App() {
               Learn more →
             </a>
           </div>
-
           <div className="service-card">
             <span className="service-number">04</span>
 
@@ -197,7 +186,6 @@ function App() {
               Learn more →
             </a>
           </div>
-
           <div className="service-card">
             <span className="service-number">05</span>
 
@@ -216,7 +204,6 @@ function App() {
 
           <div className="service-card">
             <span className="service-number">06</span>
-
             <div className="service-icon">↗</div>
 
             <h3>Digital Consulting</h3>
@@ -232,7 +219,6 @@ function App() {
           </div>
         </div>
       </section>
-
       {/* Projects Section */}
       <section className="projects-section" id="projects">
         <div className="section-heading">
@@ -249,7 +235,6 @@ function App() {
 
             <p>Web Application</p>
           </div>
-
           <div className="project-card">
             <div className="project-image">Project 02</div>
 
@@ -267,7 +252,6 @@ function App() {
           </div>
         </div>
       </section>
-
       {/* Process Section */}
       <section className="process-section" id="process">
         <div className="section-heading">
@@ -286,7 +270,6 @@ function App() {
               Deep dive into goals, user needs, and market landscape.
             </p>
           </div>
-
           <div className="process-step">
             <span>02</span>
 
@@ -306,7 +289,6 @@ function App() {
               Creating high-fidelity UI/UX and interactive prototypes.
             </p>
           </div>
-
           <div className="process-step">
             <span>04</span>
 
@@ -329,7 +311,6 @@ function App() {
 
           <div className="process-step">
             <span>06</span>
-
             <h3>Launch</h3>
 
             <p>
@@ -345,7 +326,6 @@ function App() {
           <span className="section-label">GET IN TOUCH</span>
 
           <h2>Let's Build Something Great</h2>
-
           <p>
             Tell us about your project and we'll get back to you within 24
             hours.
@@ -361,7 +341,6 @@ function App() {
               <br />
               pent26codes@gmail.com
             </p>
-
             <p>
               <strong>WHATSAPP</strong>
               <br />
@@ -381,7 +360,6 @@ function App() {
                 type="text"
                 placeholder="Full Name"
               />
-
               <input
                 type="email"
                 placeholder="Email Address"
