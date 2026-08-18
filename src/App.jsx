@@ -73,10 +73,9 @@ function App() {
         </div>
       </section>
 
-            {/* About Section */}
+      {/* About Section */}
       <section className="about-section" id="about">
         <div className="about-container">
-
           <div className="about-visual">
             <div className="about-box">
               <span>P26</span>
@@ -114,113 +113,175 @@ function App() {
               Explore Our Services →
             </a>
           </div>
-
         </div>
       </section>
 
-      {/* Services */}
+      {/* Services Section */}
       <section className="services-section" id="services">
         <div className="section-heading">
           <span className="section-label">WHAT WE DO</span>
 
           <h2>Comprehensive Solutions</h2>
+
+          <p>
+            We combine strategy, design, and technology to build digital
+            solutions that create real business impact.
+          </p>
         </div>
 
         <div className="services-grid">
           <div className="service-card">
+            <span className="service-number">01</span>
+
             <div className="service-icon">◎</div>
+
             <h3>Website Development</h3>
+
             <p>
               High-performance React and Next.js applications tailored for
               modern businesses.
             </p>
+
+            <a href="#contact" className="service-link">
+              Learn more →
+            </a>
           </div>
 
           <div className="service-card">
+            <span className="service-number">02</span>
+
             <div className="service-icon">◇</div>
+
             <h3>UI/UX Design</h3>
+
             <p>
               User-centric interfaces that blend aesthetic beauty with
               seamless functionality.
             </p>
+
+            <a href="#contact" className="service-link">
+              Learn more →
+            </a>
           </div>
 
           <div className="service-card">
+            <span className="service-number">03</span>
+
             <div className="service-icon">▯</div>
-            <h3>Mobile App Dev</h3>
+
+            <h3>Mobile App Development</h3>
+
             <p>
               Native and cross-platform mobile solutions for iOS and Android
               environments.
             </p>
+
+            <a href="#contact" className="service-link">
+              Learn more →
+            </a>
           </div>
 
           <div className="service-card">
+            <span className="service-number">04</span>
+
             <div className="service-icon">▣</div>
+
             <h3>AI Solutions</h3>
+
             <p>
               Intelligent technology solutions designed to improve business
               efficiency and decision-making.
             </p>
+
+            <a href="#contact" className="service-link">
+              Learn more →
+            </a>
           </div>
 
           <div className="service-card">
+            <span className="service-number">05</span>
+
             <div className="service-icon">☁</div>
+
             <h3>Cloud & SaaS</h3>
+
             <p>
               Scalable cloud-based platforms designed for modern businesses.
             </p>
+
+            <a href="#contact" className="service-link">
+              Learn more →
+            </a>
           </div>
 
           <div className="service-card">
+            <span className="service-number">06</span>
+
             <div className="service-icon">↗</div>
+
             <h3>Digital Consulting</h3>
+
             <p>
               Strategic technology consulting to help businesses grow
               digitally.
             </p>
+
+            <a href="#contact" className="service-link">
+              Learn more →
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Projects */}
+      {/* Projects Section */}
       <section className="projects-section" id="projects">
         <div className="section-heading">
           <span className="section-label">OUR WORK</span>
+
           <h2>Featured Projects</h2>
         </div>
 
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-image">Project 01</div>
+
             <h3>Digital Product</h3>
+
             <p>Web Application</p>
           </div>
 
           <div className="project-card">
             <div className="project-image">Project 02</div>
+
             <h3>Business Platform</h3>
+
             <p>SaaS Application</p>
           </div>
 
           <div className="project-card">
             <div className="project-image">Project 03</div>
+
             <h3>Mobile Experience</h3>
+
             <p>Mobile Application</p>
           </div>
         </div>
       </section>
 
-      {/* Process */}
+      {/* Process Section */}
       <section className="process-section" id="process">
         <div className="section-heading">
           <span className="section-label">OUR METHOD</span>
+
           <h2>A Proven Path to Launch</h2>
         </div>
 
         <div className="process-grid">
           <div className="process-step">
             <span>01</span>
+
             <h3>Discovery</h3>
+
             <p>
               Deep dive into goals, user needs, and market landscape.
             </p>
@@ -228,7 +289,9 @@ function App() {
 
           <div className="process-step">
             <span>02</span>
+
             <h3>Planning</h3>
+
             <p>
               Defining roadmap, features, and technology stack selection.
             </p>
@@ -236,7 +299,9 @@ function App() {
 
           <div className="process-step">
             <span>03</span>
+
             <h3>Design</h3>
+
             <p>
               Creating high-fidelity UI/UX and interactive prototypes.
             </p>
@@ -244,7 +309,9 @@ function App() {
 
           <div className="process-step">
             <span>04</span>
+
             <h3>Development</h3>
+
             <p>
               Agile engineering with continuous integration cycles.
             </p>
@@ -252,7 +319,9 @@ function App() {
 
           <div className="process-step">
             <span>05</span>
+
             <h3>Testing</h3>
+
             <p>
               Rigorous QA, security audits, and performance tuning.
             </p>
@@ -260,7 +329,9 @@ function App() {
 
           <div className="process-step">
             <span>06</span>
+
             <h3>Launch</h3>
+
             <p>
               Deployment and ongoing maintenance support.
             </p>
@@ -268,10 +339,11 @@ function App() {
         </div>
       </section>
 
-      {/* Contact */}
+      {/* Contact Section */}
       <section className="contact-section" id="contact">
         <div className="section-heading">
           <span className="section-label">GET IN TOUCH</span>
+
           <h2>Let's Build Something Great</h2>
 
           <p>
@@ -305,15 +377,29 @@ function App() {
 
           <form className="contact-form">
             <div className="form-row">
-              <input type="text" placeholder="Full Name" />
-              <input type="email" placeholder="Email Address" />
+              <input
+                type="text"
+                placeholder="Full Name"
+              />
+
+              <input
+                type="email"
+                placeholder="Email Address"
+              />
             </div>
 
-            <input type="tel" placeholder="Phone Number" />
+            <input
+              type="tel"
+              placeholder="Phone Number"
+            />
 
-            <textarea placeholder="Message"></textarea>
+            <textarea
+              placeholder="Message"
+            ></textarea>
 
-            <button type="submit">Send Message</button>
+            <button type="submit">
+              Send Message
+            </button>
           </form>
         </div>
       </section>
